@@ -1,7 +1,6 @@
 model:
   target: lvdm.models.ddpm3d.LatentVisualDiffusion
   params:
-    rescale_betas_zero_snr: True
     parameterization: "v"
     linear_start: 0.00085
     linear_end: 0.012
